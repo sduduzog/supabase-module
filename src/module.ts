@@ -2,7 +2,7 @@ import { fileURLToPath } from 'url'
 import { defu } from 'defu'
 import { resolve } from 'pathe'
 import { defineNuxtModule, addPlugin, addServerMiddleware, extendViteConfig } from '@nuxt/kit'
-import { CookieOptions, SupabaseClientOptions } from '@supabase/supabase-js'
+import { CookieOptions, SupabaseClientOptions } from '@supabase/supabase-js/src'
 
 export interface ModuleOptions {
   /**
